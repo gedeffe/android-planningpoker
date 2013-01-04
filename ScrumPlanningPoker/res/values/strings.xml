@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Play. Estimate. Plan.</string>
+    <string name="app_name">Planning Poker</string>
+
+    <string name="cardset_title">Play. Estimate. Plan.</string>
+    <string name="cardchoice_title">Your choice</string>
+    <string name="about_title">Planning poker manual</string>
+    
+    <string name="about_intro_title">Introduction</string>
+    <string name="about_intro_content">
+        Le planning poker est une façon ludique et efficace de produire des estimations sur la complexité des fonctionnalités à développer.
+        Cette pratique est surtout utilisée en Scrum et dans les méthodes agiles en général pour évaluer les scénarios utilisateurs (user stories)
+        du carnet de produit (product backlog).</string>
+    
+    <string name="about_usage_title">Usage</string>
+    <string name="about_usage_content">
+        L&#8217;avantage principal du planning poker est de permettre à tous de s&#8217;exprimer librement.
+        L&#8217;estimation sera meilleure parce que plusieurs personnes l&#8217;auront validée : des participants avec des
+        niveaux d&#8217;expérience et d&#8217;expertise différents.
+        De plus, cette technique favorise les échanges entre le responsable de produits et l&#8217;équipe de développement.
+\n
+ L&#8217;estimation se fait en points, ce qui permet d&#8217;obtenir une véritable mesure de complexité relative : 
+ les scénarios sont comparés entre eux. L&#8217;équivalent en jours-hommes est propre à chacun, selon ses compétences,
+ son expérience et sa connaissance du domaine. L&#8217;avantage d&#8217;utiliser des points réside surtout dans le fait 
+ que l&#8217;échelle utilisée restera stable tout au long du projet. Peu importe la vitesse (vélocité) à laquelle 
+ l&#8217;équipe de développement accomplira ces tâches, nul besoin de reviser les estimations : c&#8217;est le 
+ rapport entre le temps réel et les points qui évoluera.
+\n
+ La suite de Fibonacci est utilisée pour les évaluations. 
+ Comme nous cherchons un ordre de complexité, le message est clair : plus le scénario est gros, 
+ moins l&#8217;évaluation est précise. Le paquet de cartes utilisé pour le planning poker doit donc 
+ comporter les valeurs suivantes : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89. Certains simplifient les grandes 
+ valeurs en les transformant en 20, 40, 100.
+</string>
+    
+    <string name="about_deroulement_title">Déroulement</string>
+    <string name="about_deroulement_content_1">
+        &#8226;Les participants s installent autour d une table, placés de façon à ce que tout le monde puisse se voir.
+\n
+&#8226;Le responsable de produit explique à l&#8217;équipe un scénario utilisateur (user story).
+\n
+&#8226;Les participants posent des questions au responsable de produit, discutent du périmètre du scénario, 
+évoquent les conditions de satisfaction qui permettront de la considérer comme "terminée".
+\n
+&#8226;Chacun des participants évalue la complexité de ce scénario, choisit la carte qui correspond à son estimation 
+et la dépose, face vers le bas, sur la table devant lui.
+\n
+&#8226;Au signal du facilitateur, les cartes sont retournées en même temps.
+\n
+&#8226;&#8217;il n y a pas unanimité, la discussion reprend.
+\n
+&#8226;On répète le processus d&#8217;estimation jusqu&#8217;à l&#8217;obtention de l&#8217;unanimité.
+</string>
+</resources>
